@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		365B00000000000000000064 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365B00000000000000000001 /* AppDelegate.swift */; };
+		365B00000000000000000065 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365B00000000000000000002 /* SceneDelegate.swift */; };
+		365B00000000000000000066 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365B00000000000000000003 /* Models.swift */; };
+		365B00000000000000000067 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365B00000000000000000004 /* DataStore.swift */; };
+		365B00000000000000000068 /* AppLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365B00000000000000000005 /* AppLinks.swift */; };
+		365B00000000000000000069 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365B00000000000000000006 /* Theme.swift */; };
+		365B0000000000000000006A /* LaneChrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365B00000000000000000007 /* LaneChrome.swift */; };
+		365B0000000000000000006B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365B00000000000000000008 /* ContentView.swift */; };
+		365B0000000000000000006C /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365B00000000000000000009 /* OnboardingView.swift */; };
+		365B0000000000000000006D /* IntervalViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365B0000000000000000000A /* IntervalViews.swift */; };
+		365B0000000000000000006E /* RoutineViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365B0000000000000000000B /* RoutineViews.swift */; };
+		365B0000000000000000006F /* ProgressViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365B0000000000000000000C /* ProgressViews.swift */; };
+		365B00000000000000000070 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365B0000000000000000000D /* SettingsView.swift */; };
+		365B00000000000000000071 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 365B0000000000000000000E /* Assets.xcassets */; };
+		365B00000000000000000072 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 365B0000000000000000000F /* LaunchScreen.storyboard */; };
+		365B00000000000000000073 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 365B00000000000000000010 /* PrivacyInfo.xcprivacy */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		27F88C004AE417F63A5C0137 /* Pods-365VeracalmSportsCompass.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-365VeracalmSportsCompass.debug.xcconfig"; path = "Target Support Files/Pods-365VeracalmSportsCompass/Pods-365VeracalmSportsCompass.debug.xcconfig"; sourceTree = "<group>"; };
+		337370B86C1A847C22C734D4 /* Pods-365VeracalmSportsCompass.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-365VeracalmSportsCompass.release.xcconfig"; path = "Target Support Files/Pods-365VeracalmSportsCompass/Pods-365VeracalmSportsCompass.release.xcconfig"; sourceTree = "<group>"; };
+		365A1000000000000000000A /* 365VeracalmSportsCompass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 365VeracalmSportsCompass.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		365B00000000000000000001 /* AppDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		365B00000000000000000002 /* SceneDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		365B00000000000000000003 /* Models.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		365B00000000000000000004 /* DataStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
+		365B00000000000000000005 /* AppLinks.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppLinks.swift; sourceTree = "<group>"; };
+		365B00000000000000000006 /* Theme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		365B00000000000000000007 /* LaneChrome.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LaneChrome.swift; sourceTree = "<group>"; };
+		365B00000000000000000008 /* ContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		365B00000000000000000009 /* OnboardingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		365B0000000000000000000A /* IntervalViews.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IntervalViews.swift; sourceTree = "<group>"; };
+		365B0000000000000000000B /* RoutineViews.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RoutineViews.swift; sourceTree = "<group>"; };
+		365B0000000000000000000C /* ProgressViews.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ProgressViews.swift; sourceTree = "<group>"; };
+		365B0000000000000000000D /* SettingsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		365B0000000000000000000E /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		365B0000000000000000000F /* LaunchScreen.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		365B00000000000000000010 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		365B00000000000000000011 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A98A6E90C5313A2240D4F6F9 /* Pods_365VeracalmSportsCompass.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_365VeracalmSportsCompass.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		365A10000000000000000004 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		365A10000000000000000006 = {
+			isa = PBXGroup;
+			children = (
+				365A10000000000000000009 /* 365VeracalmSportsCompass */,
+				365A10000000000000000007 /* Products */,
+				C2D3CB0A37A62BC9F05033A6 /* Pods */,
+				E947B8A96D369461FC32E489 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		365A10000000000000000007 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				365A1000000000000000000A /* 365VeracalmSportsCompass.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		365A10000000000000000009 /* 365VeracalmSportsCompass */ = {
+			isa = PBXGroup;
+			children = (
+				365A20000000000000000001 /* App */,
+				365A20000000000000000005 /* Components */,
+				365A20000000000000000002 /* Models */,
+				365A20000000000000000003 /* Services */,
+				365A20000000000000000004 /* Utilities */,
+				365A20000000000000000006 /* Views */,
+				365B0000000000000000000E /* Assets.xcassets */,
+				365B0000000000000000000F /* LaunchScreen.storyboard */,
+				365B00000000000000000010 /* PrivacyInfo.xcprivacy */,
+				365B00000000000000000011 /* Info.plist */,
+			);
+			path = 365VeracalmSportsCompass;
+			sourceTree = "<group>";
+		};
+		365A20000000000000000001 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				365B00000000000000000001 /* AppDelegate.swift */,
+				365B00000000000000000002 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		365A20000000000000000002 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				365B00000000000000000003 /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		365A20000000000000000003 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				365B00000000000000000004 /* DataStore.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		365A20000000000000000004 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				365B00000000000000000005 /* AppLinks.swift */,
+				365B00000000000000000006 /* Theme.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		365A20000000000000000005 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				365B00000000000000000007 /* LaneChrome.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		365A20000000000000000006 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				365B00000000000000000008 /* ContentView.swift */,
+				365B00000000000000000009 /* OnboardingView.swift */,
+				365B0000000000000000000A /* IntervalViews.swift */,
+				365B0000000000000000000B /* RoutineViews.swift */,
+				365B0000000000000000000C /* ProgressViews.swift */,
+				365B0000000000000000000D /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C2D3CB0A37A62BC9F05033A6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				27F88C004AE417F63A5C0137 /* Pods-365VeracalmSportsCompass.debug.xcconfig */,
+				337370B86C1A847C22C734D4 /* Pods-365VeracalmSportsCompass.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E947B8A96D369461FC32E489 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A98A6E90C5313A2240D4F6F9 /* Pods_365VeracalmSportsCompass.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		365A10000000000000000001 /* 365VeracalmSportsCompass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 365A10000000000000000010 /* Build configuration list for PBXNativeTarget "365VeracalmSportsCompass" */;
+			buildPhases = (
+				93786FF18D2412D5E22D4D94 /* [CP] Check Pods Manifest.lock */,
+				365A10000000000000000003 /* Sources */,
+				365A10000000000000000004 /* Frameworks */,
+				365A10000000000000000005 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 365VeracalmSportsCompass;
+			productName = 365VeracalmSportsCompass;
+			productReference = 365A1000000000000000000A /* 365VeracalmSportsCompass.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		365A10000000000000000002 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 365A1000000000000000000F /* Build configuration list for PBXProject "365VeracalmSportsCompass" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 365A10000000000000000006;
+			productRefGroup = 365A10000000000000000007 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				365A10000000000000000001 /* 365VeracalmSportsCompass */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		365A10000000000000000005 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				365B00000000000000000071 /* Assets.xcassets in Resources */,
+				365B00000000000000000072 /* LaunchScreen.storyboard in Resources */,
+				365B00000000000000000073 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		93786FF18D2412D5E22D4D94 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-365VeracalmSportsCompass-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		365A10000000000000000003 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				365B00000000000000000064 /* AppDelegate.swift in Sources */,
+				365B00000000000000000065 /* SceneDelegate.swift in Sources */,
+				365B00000000000000000066 /* Models.swift in Sources */,
+				365B00000000000000000067 /* DataStore.swift in Sources */,
+				365B00000000000000000068 /* AppLinks.swift in Sources */,
+				365B00000000000000000069 /* Theme.swift in Sources */,
+				365B0000000000000000006A /* LaneChrome.swift in Sources */,
+				365B0000000000000000006B /* ContentView.swift in Sources */,
+				365B0000000000000000006C /* OnboardingView.swift in Sources */,
+				365B0000000000000000006D /* IntervalViews.swift in Sources */,
+				365B0000000000000000006E /* RoutineViews.swift in Sources */,
+				365B0000000000000000006F /* ProgressViews.swift in Sources */,
+				365B00000000000000000070 /* SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		365A1000000000000000000B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		365A1000000000000000000C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		365A1000000000000000000D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27F88C004AE417F63A5C0137 /* Pods-365VeracalmSportsCompass.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = 365VeracalmSportsCompass/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Veracalm Sports Compass";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.sports";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kas.v5r7c0lmsp0rtsc8mp2;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		365A1000000000000000000E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 337370B86C1A847C22C734D4 /* Pods-365VeracalmSportsCompass.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = 365VeracalmSportsCompass/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Veracalm Sports Compass";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.sports";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kas.v5r7c0lmsp0rtsc8mp2;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		365A1000000000000000000F /* Build configuration list for PBXProject "365VeracalmSportsCompass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				365A1000000000000000000B /* Debug */,
+				365A1000000000000000000C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		365A10000000000000000010 /* Build configuration list for PBXNativeTarget "365VeracalmSportsCompass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				365A1000000000000000000D /* Debug */,
+				365A1000000000000000000E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 365A10000000000000000002 /* Project object */;
+}

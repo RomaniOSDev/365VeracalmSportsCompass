@@ -1,0 +1,6 @@
+framework module Pods_365VeracalmSportsCompass {
+  umbrella header "Pods-365VeracalmSportsCompass-umbrella.h"
+
+  export *
+  module * { export * }
+}
