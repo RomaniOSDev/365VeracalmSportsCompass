@@ -23,6 +23,9 @@
 		365B00000000000000000071 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 365B0000000000000000000E /* Assets.xcassets */; };
 		365B00000000000000000072 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 365B0000000000000000000F /* LaunchScreen.storyboard */; };
 		365B00000000000000000073 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 365B00000000000000000010 /* PrivacyInfo.xcprivacy */; };
+		365C00000000000000000011 /* StartAppSecrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365C00000000000000000001 /* StartAppSecrets.swift */; };
+		365C00000000000000000012 /* StartAppConfiguration+App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365C00000000000000000002 /* StartAppConfiguration+App.swift */; };
+		365C00000000000000000021 /* StartAppKit in Frameworks */ = {isa = PBXBuildFile; productRef = 365C00000000000000000022 /* StartAppKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +49,8 @@
 		365B0000000000000000000F /* LaunchScreen.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		365B00000000000000000010 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		365B00000000000000000011 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		365C00000000000000000001 /* StartAppSecrets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartAppSecrets.swift; sourceTree = "<group>"; };
+		365C00000000000000000002 /* StartAppConfiguration+App.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "StartAppConfiguration+App.swift"; sourceTree = "<group>"; };
 		A98A6E90C5313A2240D4F6F9 /* Pods_365VeracalmSportsCompass.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_365VeracalmSportsCompass.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -54,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				365C00000000000000000021 /* StartAppKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				365A20000000000000000001 /* App */,
+				365C00000000000000000003 /* StartApp */,
 				365A20000000000000000005 /* Components */,
 				365A20000000000000000002 /* Models */,
 				365A20000000000000000003 /* Services */,
@@ -150,6 +157,15 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		365C00000000000000000003 /* StartApp */ = {
+			isa = PBXGroup;
+			children = (
+				365C00000000000000000001 /* StartAppSecrets.swift */,
+				365C00000000000000000002 /* StartAppConfiguration+App.swift */,
+			);
+			path = StartApp;
+			sourceTree = "<group>";
+		};
 		C2D3CB0A37A62BC9F05033A6 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -184,6 +200,9 @@
 			dependencies = (
 			);
 			name = 365VeracalmSportsCompass;
+			packageProductDependencies = (
+				365C00000000000000000022 /* StartAppKit */,
+			);
 			productName = 365VeracalmSportsCompass;
 			productReference = 365A1000000000000000000A /* 365VeracalmSportsCompass.app */;
 			productType = "com.apple.product-type.application";
@@ -206,6 +225,9 @@
 				Base,
 			);
 			mainGroup = 365A10000000000000000006;
+			packageReferences = (
+				365C00000000000000000023 /* XCLocalSwiftPackageReference "Packages/StartAppKit" */,
+			);
 			productRefGroup = 365A10000000000000000007 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -271,6 +293,8 @@
 				365B0000000000000000006E /* RoutineViews.swift in Sources */,
 				365B0000000000000000006F /* ProgressViews.swift in Sources */,
 				365B00000000000000000070 /* SettingsView.swift in Sources */,
+				365C00000000000000000011 /* StartAppSecrets.swift in Sources */,
+				365C00000000000000000012 /* StartAppConfiguration+App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -487,6 +511,21 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		365C00000000000000000023 /* XCLocalSwiftPackageReference "Packages/StartAppKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/StartAppKit;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		365C00000000000000000022 /* StartAppKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 365C00000000000000000023 /* XCLocalSwiftPackageReference "Packages/StartAppKit" */;
+			productName = StartAppKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 365A10000000000000000002 /* Project object */;
 }
